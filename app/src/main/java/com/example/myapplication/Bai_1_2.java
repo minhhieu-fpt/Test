@@ -9,14 +9,14 @@ import android.widget.Button;
 
 public class Bai_1_2 extends AppCompatActivity {
 
-    Button start, stop;
+    Button startt, stop;
     Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bai_1_2);
 
-        start = findViewById(R.id.startService);
+        startt = findViewById(R.id.startService);
         stop = findViewById(R.id.stopService);
         intent = new Intent(Bai_1_2.this, MyService.class);
 
